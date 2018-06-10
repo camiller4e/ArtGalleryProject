@@ -82,5 +82,6 @@ artwork6 = Artwork.new({
     })
 artwork6.save()
 
+
 binding.pry
 nil
