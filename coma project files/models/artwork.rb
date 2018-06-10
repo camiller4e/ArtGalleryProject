@@ -40,7 +40,7 @@ class Artwork
 
   def self.all()
     sql = " SELECT * FROM artworks"
-    results = SqlRunner.run(sql, values)
+    results = SqlRunner.run(sql)
     return results.map { |result| Artwork.new(result)}
   end
 
