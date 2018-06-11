@@ -28,7 +28,7 @@ class Artwork
     sql = "UPDATE artworks SET
     (title, year, category, artist_id) = ($1, $2, $3, $4)
     WHERE id = $5"
-    values = [@title, @year, @category, @artist_id]
+    values = [@title, @year, @category, @artist_id, @id]
     SqlRunner.run( sql, values )
   end
 
