@@ -1,0 +1,15 @@
+<form method="post" action="/artists/<%= @artist.id %>/delete">
+
+<p>Name: <%= @artist.name %></p>
+<p>Style: <%= @artist.style %></p>
+
+
+<input type="submit" value="Delete artist"/>
+
+
+</form>
+
+<form method="get" action="/artists/<%= @artist.id %>/edit">
+<input type="submit" value="Edit artist"/>
+
+</form>

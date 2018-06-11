@@ -1,0 +1,9 @@
+<h1>Artworks</h1>
+
+<% for artwork in @artworks %>
+<p>Title: <%= artwork.title() %></p>
+<p>Year: <%= artwork.year() %></p>
+<p>Category: <%= artwork.category() %></p>
+<p>Artist: <%= artwork.artist_id() %></p>
+<p><a href="/artworks/<%= artwork.id %>">Show artwork</a></p>
+<% end %>

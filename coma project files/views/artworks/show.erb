@@ -1,0 +1,17 @@
+<form method="post" action="/artworks/<%= @artwork.id %>/delete">
+
+  <p>Title: <%= @artwork.title() %></p>
+  <p>Year: <%= @artwork.year() %></p>
+  <p>Category: <%= @artwork.category() %></p>
+  <p>Artist: <%= @artwork.artist_id() %></p>
+
+
+<input type="submit" value="Delete artwork"/>
+
+
+</form>
+
+<form method="get" action="/artworks/<%= @artwork.id %>/edit">
+<input type="submit" value="Edit artwork"/>
+
+</form>
