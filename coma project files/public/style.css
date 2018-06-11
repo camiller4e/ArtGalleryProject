@@ -43,11 +43,31 @@ ul {
     justify-content: space-between;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left:0;
     text-align: left;
     color: black;
-    font-size: 25px;
+    font-size: 22px;
     font-family: palatino;
+
+
+
+}
+
+ul li {
+
+  margin: 10px 0 0;
+  background-color: wheat;
+  margin-right: 1150px;
+  /* opacity: 0.6; */
+
+}
+
+ul a {
+
+  color: black;
+  text-decoration: none;
+
+
 
 
 }
