@@ -1,1 +1,53 @@
+body {
 
+  background-color: snow;
+  padding-top: 15px;
+
+}
+
+h1 {
+
+  text-align: left;
+  font-family: ;
+  background-image:
+
+}
+
+header {
+
+height: 250px;
+
+}
+
+/* .flex-container {
+
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+
+} */
+
+nav {
+
+
+height: 500px;
+
+background-image: url(https://cdn.taschen.com/custom/taschen/includes/phpThumb/phpThumb.php/q=90;f=jpg;1640;/media/images/1640/ba_mucha_opener_05133_1511121514_id_1013464.jpg)
+
+}
+
+ul {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: black;
+    font-size: 25px;
+    font-family: palatino;
+
+
+}
