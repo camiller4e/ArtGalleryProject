@@ -1,6 +1,6 @@
 require('sinatra')
 require('sinatra/contrib/all')
-require_relative('..models/artist')
+require_relative('../models/artist.rb')
 also_reload('../models/*')
 
 get '/artists' do
