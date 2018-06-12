@@ -2,14 +2,16 @@ body {
 
   background-color: lightpink;
   padding-top: 15px;
+  font-family: palatino;
 
 }
 
-h1 {
 
-  text-align: left;
-  font-family: ;
-  background-image:
+
+h2 {
+
+  font-family: cocotte;
+  text-align: center;
 
 }
 
@@ -85,7 +87,6 @@ ul a:hover {
 
 }
 
-
 .img-home {
 
   display: flex;
@@ -96,25 +97,41 @@ ul a:hover {
 
 .artists {
 
-  /* font-family: palatino;
-  font-size: 20px;
-
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-content: flex-start; */
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
+.artworks {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
 .artworks figure {
 
-width: 350px;
-height:700px;
-background-color: pink;
+  width: 350px;
+  height:666px;
+  background-color: pink;
+  font-size: 28px;
+
+}
+
+.artworks a {
+
+  font-size: 20px;
+  text-decoration: none;
+  color: plum;
+
+}
+
+.artists a {
+
+  font-size: 20px;
+  text-decoration: none;
+  color: plum;
 
 }
 
@@ -122,13 +139,12 @@ background-color: pink;
   width: 350px;
   height: 600px;
   background-color: pink;
+  font-size: 28px;
 }
 
 figcaption {
   font-size: 0.8em;
 }
-
-
 
 .img-home a {
 

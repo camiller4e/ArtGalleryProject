@@ -1,4 +1,4 @@
-<h1>Artworks</h1>
+<h2>Artworks</h2>
 
 <div class="artworks">
 
@@ -6,10 +6,10 @@
 <figure>
   <figcaption>
     <img src=" <%= artwork.image() %>">
-    Title: <%= artwork.title() %>
-    Year: <%= artwork.year() %>
-    Category: <%= artwork.category() %>
-    Artist: <%= artwork.artist_id() %>
+    Title: <%= artwork.title() %> <br>
+    Year: <%= artwork.year() %> <br>
+    Category: <%= artwork.category() %> <br>
+    Artist: <%= artwork.artist_id() %> <br>
   </figcaption>
   <a href="/artworks/<%= artwork.id %>">Show Artwork</a>
 </figure>
