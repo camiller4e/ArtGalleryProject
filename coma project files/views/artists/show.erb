@@ -2,14 +2,15 @@
 
   <figure>
     <figcaption>
-      <img src=" <%= @artist.image() %>">
-      Name: <%= @artist.name() %><br>
-      Style: <%= @artist.style() %>
+      <img src=" <%= @artist.image() %>"><br>
+      <%= @artist.name() %><br>
+      <i><%= @artist.style() %></i><br>
     </figcaption>
+    <input type="submit" value="Delete artist"/>
   </figure>
 
 
-<input type="submit" value="Delete artist"/>
+
 
 
 </form>

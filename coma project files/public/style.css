@@ -6,8 +6,6 @@ body {
 
 }
 
-
-
 h2 {
 
   font-family: cocotte;
@@ -98,8 +96,9 @@ ul a:hover {
 .artists {
 
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-around;
+
 }
 
 .artworks {
@@ -136,10 +135,11 @@ ul a:hover {
 }
 
 .artists figure {
-  width: 350px;
-  height: 600px;
+  width: 250px;
+  height: 320px;
   background-color: pink;
-  font-size: 28px;
+  font-size: 25px;
+  margin: 10px;
 }
 
 figcaption {
