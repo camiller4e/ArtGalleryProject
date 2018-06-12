@@ -1,22 +1,28 @@
 <form method="post" action="/artworks/<%= @artwork.id %>/delete">
 
-  <figure>
-    <figcaption>
-      <img src=" <%= @artwork.image() %>">
-  Title: <%= @artwork.title() %>
-  Year: <%= @artwork.year() %>
-  Category: <%= @artwork.category() %>
-  Artist: <%= @artwork.artist_id() %>
-</figcaption>
-</figure>
+  <div class="artworkshow">
+
+    <figure>
+      <figcaption>
+        <img src=" <%= @artwork.image() %>"><br>
+        <%= @artwork.title() %><br>
+        <i><%= @artwork.year() %></i><br>
+        <i><%= @artwork.category() %></i><br>
+        Artist: <%= @artwork.artist_id() %><br>
+        <input type="submit" value="Delete artwork"/>
+        <form method="get" action="/artworks/<%= @artwork.id %>/edit">
+          <input type="submit" value="Edit artwork"/>
+        </figcaption>
+      </figure>
 
 
-<input type="submit" value="Delete artwork"/>
 
 
-</form>
 
-<form method="get" action="/artworks/<%= @artwork.id %>/edit">
-<input type="submit" value="Edit artwork"/>
+    </form>
+
+
+
+  </div>
 
 </form>

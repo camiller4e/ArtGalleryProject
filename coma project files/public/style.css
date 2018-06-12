@@ -112,7 +112,7 @@ ul a:hover {
 .artworks figure {
 
   width: 350px;
-  height:666px;
+  height:620px;
   background-color: pink;
   font-size: 28px;
 
@@ -156,6 +156,14 @@ justify-content: space-between;
 margin-left: 50px;
 margin-right: 100px;
 
+
+}
+
+.artworkshow figure {
+
+  width: 350px;
+  height:620px;
+  font-size: 28px;
 
 }
 
