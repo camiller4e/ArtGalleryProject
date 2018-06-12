@@ -15,59 +15,112 @@ h1 {
 
 header {
 
-height: 250px;
+  height: 250px;
 
 }
 
-/* .flex-container {
+footer {
 
   display: flex;
-  flex-direction: column;
-  align-content: space-around;
+  justify-content: center;
 
-} */
+}
 
 nav {
 
+  height: 400px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
 
-height: 500px;
-
-background-image: url(https://cdn.taschen.com/custom/taschen/includes/phpThumb/phpThumb.php/q=90;f=jpg;1640;/media/images/1640/ba_mucha_opener_05133_1511121514_id_1013464.jpg)
+  background-image: url(https://image.ibb.co/fP6TUd/muchabg1.jpg)
 
 }
 
 ul {
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    list-style-type: none;
-    margin: 0;
-    padding-left:0;
-    text-align: left;
-    color: black;
-    font-size: 22px;
-    font-family: palatino;
-
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding-left:0;
+  text-align: center;
+  color: black;
+  font-size: 21px;
+  font-family: palatino;
 
 }
 
 ul li {
 
-  margin: 10px 0 0;
-  background-color: wheat;
+  margin: 15px 0 0;
+  padding-left: 0px;
   margin-right: 1150px;
-  /* opacity: 0.6; */
 
 }
 
 ul a {
 
-  color: black;
+  color: beige;
   text-decoration: none;
+  text-shadow: 2px 2px 8px black;
+
+}
+
+ul a:hover {
+
+  opacity: 0.6;
+
+}
+
+
+.img-home {
+
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+
+}
+
+.artists {
+
+  /* font-family: palatino;
+  font-size: 20px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start; */
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+figure {
+  width: 350px;
+  height: 600px;
+  background-color: #ededed;
+}
+
+figcaption {
+  font-size: 0.8em;
+}
 
 
 
+.img-home a {
+
+  color: black;
+  font-family: palatino;
+
+}
+
+.img-home a:hover {
+
+  opacity: 0.6;
+  transition: .5s ease;
 
 }

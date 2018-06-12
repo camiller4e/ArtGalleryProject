@@ -1,7 +1,16 @@
-<h1>Artists</h1>
+<h2>Artists</h2>
+
+<div class="artists">
 
 <% for artist in @artists %>
-<p>Name: <%= artist.name() %></p>
-<p>Style: <%= artist.style() %></p>
-<p><a href="/artists/<%= artist.id %>">Show Artist</a></p>
+<figure>
+  <img src="https://78.media.tumblr.com/fdf38100b5a719fbb7a8a542450750d1/tumblr_pa7df9NZzx1ug998ko1_400.jpg">
+  <figcaption>
+    Name: <%= artist.name() %><br>
+    Style: <%= artist.style() %>
+  </figcaption>
+  <a href="/artists/<%= artist.id %>">Show Artist</a>
+</figure>
 <% end %>
+
+</div>
