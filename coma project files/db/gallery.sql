@@ -6,7 +6,8 @@ CREATE TABLE artists
 id SERIAL8 PRIMARY KEY,
 name VARCHAR(255),
 style VARCHAR(255),
-image VARCHAR(255)
+image VARCHAR(255),
+bio TEXT
 );
 
 CREATE TABLE artworks

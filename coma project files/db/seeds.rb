@@ -8,30 +8,34 @@ Artist.delete_all()
 #ARTISTS#
 
 artist1 = Artist.new({
-  "name" => "Alphons Mucha",
+  "name" => "Alphonse Mucha",
   "style" => "Art Nouveau",
-  "image" => "/images/artists/Alfons-Mucha.jpg"
+  "image" => "/images/artists/Alfons-Mucha.jpg",
+  "bio" => "Alfons Maria Mucha, known as Alphonse Mucha, was a Czech Art Nouveau painter and decorative artist, known best for his distinct style. He produced many paintings, illustrations, advertisements, postcards, and designs. One of the largest collections of Mucha's works is in the possession of former world no. 1 professional tennis player Ivan Lendl, who started collecting his works upon meeting Mucha's son, Jiří Mucha, in 1982. His collection was exhibited publicly for the first time in 2013 in Prague."
   })
 artist1.save()
 
 artist2 = Artist.new({
   "name" => "Virginia Frances Sterrett",
   "style" => "Art Nouveau",
-  "image" => "/images/artists/sterrett.jpg"
+  "image" => "/images/artists/sterrett.jpg",
+  "bio" => ""
   })
 artist2.save()
 
 artist3 = Artist.new({
   "name" => "Jules Cheret",
   "style" => "Art Nouveau",
-  "image" => "/images/artists/cheret1.jpg"
+  "image" => "/images/artists/cheret1.jpg",
+  "bio" => ""
   })
 artist3.save()
 
 artist4 = Artist.new({
   "name" => "Eugene Grasset",
   "style" => "Art Nouveau",
-  "image" => "/images/artists/grasset2.jpg"
+  "image" => "/images/artists/grasset2.jpg",
+  "bio" => ""
   })
 artist4.save()
 
