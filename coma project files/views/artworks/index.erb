@@ -1,9 +1,18 @@
 <h1>Artworks</h1>
 
+<div class="artworks">
+
 <% for artwork in @artworks %>
-<p>Title: <%= artwork.title() %></p>
-<p>Year: <%= artwork.year() %></p>
-<p>Category: <%= artwork.category() %></p>
-<p>Artist: <%= artwork.artist_id() %></p>
-<p><a href="/artworks/<%= artwork.id %>">Show artwork</a></p>
+<figure>
+  <figcaption>
+    <img src=" <%= artwork.image() %>">
+    Title: <%= artwork.title() %>
+    Year: <%= artwork.year() %>
+    Category: <%= artwork.category() %>
+    Artist: <%= artwork.artist_id() %>
+  </figcaption>
+  <a href="/artworks/<%= artwork.id %>">Show Artwork</a>
+</figure>
 <% end %>
+
+</div>

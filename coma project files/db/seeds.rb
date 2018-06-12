@@ -42,6 +42,7 @@ artwork1 = Artwork.new({
   "title" => "Cycles Perfecta",
   "year" => "1902",
   "category" => "Portrait",
+  "image" => "/images/artworks/Cycles_Perfecta_med.jpg",
   "artist_id" => artist1.id
   })
 artwork1.save()
@@ -50,6 +51,7 @@ artwork2 = Artwork.new({
     "title" => "Job",
     "year" => "1896",
     "category" => "Street Poster Art",
+    "image" => "/images/artworks/job_med.jpg",
     "artist_id" => artist1.id
     })
 artwork2.save()
@@ -58,6 +60,7 @@ artwork3 = Artwork.new({
     "title" => "Quinquina Dubonnet",
     "year" => "1895",
     "category" => "Street Poster Art",
+    "image" => "/images/artworks/quinquina_med.jpg",
     "artist_id" => artist3.id
     })
 artwork3.save()
@@ -66,6 +69,7 @@ artwork4 = Artwork.new({
     "title" => "Grafton Gallery",
     "year" => "1897",
     "category" => "History Painting",
+    "image" => "/images/artworks/grafton_med.jpg",
     "artist_id" => artist4.id
     })
 artwork4.save()
@@ -74,6 +78,7 @@ artwork5 = Artwork.new({
     "title" => "Rosalie saw before her eyes a tree of marvelous beauty",
     "year" => "1920",
     "category" => "Illustration",
+    "image" => "/images/artworks/rosalie_med.jpg",
     "artist_id" => artist2.id
     })
 artwork5.save()
@@ -82,6 +87,7 @@ artwork6 = Artwork.new({
     "title" => "Arabian Nights",
     "year" => "1928",
     "category" => "Book",
+    "image" => "/images/artworks/arabian_med.jpg",
     "artist_id" => artist2.id
     })
 artwork6.save()

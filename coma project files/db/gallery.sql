@@ -15,6 +15,6 @@ id SERIAL8 PRIMARY KEY,
 title VARCHAR(255),
 year INT2,
 category VARCHAR(255),
--- image VARCHAR(255),
+image VARCHAR(255),
 artist_id INT4 REFERENCES artists(id) ON DELETE CASCADE
 );

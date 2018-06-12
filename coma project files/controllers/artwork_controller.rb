@@ -14,16 +14,18 @@ get '/artworks/new' do
   erb(:"artworks/new")
 end
 
+get '/artworks/:id' do
+  @artwork = Artwork.find(params['id'].to_i)
+  erb (:"artworks/show")
+end
+
 get '/artworks/:id/edit' do
   @artists = Artist.all
   @artwork = Artwork.find(params['id'])
   erb(:"artworks/edit")
 end
 
-get '/artworks/:id' do
-  @artwork = Artwork.find(params['id'].to_i)
-  erb (:"artworks/show")
-end
+
 
 post '/artworks' do
   artwork = Artwork.new(params)
