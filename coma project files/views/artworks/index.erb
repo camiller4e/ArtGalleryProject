@@ -7,9 +7,9 @@
   <figcaption>
     <a href="/artworks/<%= artwork.id %>"><img src=" <%= artwork.image() %>"></a><br>
     <%= artwork.title() %> <br>
+    <i><%= artwork.artist.name() %></i> <br>
     <i><%= artwork.year() %></i> <br>
     <i><%= artwork.category() %></i> <br>
-    Artist: <%= artwork.artist_id() %> <br>
   </figcaption>
 </figure>
 <% end %>

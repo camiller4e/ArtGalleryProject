@@ -1,4 +1,5 @@
 require_relative('../db/sql_runner')
+require_relative('artist.rb')
 
 class Artwork
 
@@ -32,6 +33,11 @@ class Artwork
     WHERE id = $7"
     values = [@title, @year, @category, @image, @info, @artist_id, @id]
     SqlRunner.run( sql, values )
+  end
+
+  def artist()
+    artist = Artist.find(@artist_id)
+    return artist
   end
 
   def self.delete(id)
