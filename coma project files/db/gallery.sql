@@ -17,5 +17,6 @@ title VARCHAR(255),
 year INT2,
 category VARCHAR(255),
 image VARCHAR(255),
+info TEXT,
 artist_id INT4 REFERENCES artists(id) ON DELETE CASCADE
 );
