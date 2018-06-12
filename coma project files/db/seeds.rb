@@ -17,21 +17,21 @@ artist1.save()
 artist2 = Artist.new({
   "name" => "Virginia Frances Sterrett",
   "style" => "Art Nouveau",
-  "image" => "images/artists/sterrett.jpg"
+  "image" => "/images/artists/sterrett.jpg"
   })
 artist2.save()
 
 artist3 = Artist.new({
   "name" => "Jules Cheret",
   "style" => "Art Nouveau",
-  "image" => "images/artists/cheret1.jpg"
+  "image" => "/images/artists/cheret1.jpg"
   })
 artist3.save()
 
 artist4 = Artist.new({
   "name" => "Eugene Grasset",
   "style" => "Art Nouveau",
-  "image" => "images/artists/grasset2.jpg"
+  "image" => "/images/artists/grasset2.jpg"
   })
 artist4.save()
 
