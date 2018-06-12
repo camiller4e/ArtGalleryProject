@@ -4,8 +4,8 @@
 
 <% for artist in @artists %>
 <figure>
-  <img src="https://78.media.tumblr.com/fdf38100b5a719fbb7a8a542450750d1/tumblr_pa7df9NZzx1ug998ko1_400.jpg">
   <figcaption>
+    <img src=" <%= artist.image() %>">
     Name: <%= artist.name() %><br>
     Style: <%= artist.style() %>
   </figcaption>

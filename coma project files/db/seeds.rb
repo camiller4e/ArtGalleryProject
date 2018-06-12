@@ -9,25 +9,29 @@ Artist.delete_all()
 
 artist1 = Artist.new({
   "name" => "Alphons Mucha",
-  "style" => "Art Nouveau"
+  "style" => "Art Nouveau",
+  "image" => "/images/artists/Alfons-Mucha.jpg"
   })
 artist1.save()
 
 artist2 = Artist.new({
   "name" => "Virginia Frances Sterrett",
-  "style" => "Art Nouveau"
+  "style" => "Art Nouveau",
+  "image" => "images/artists/sterrett.jpg"
   })
 artist2.save()
 
 artist3 = Artist.new({
   "name" => "Jules Cheret",
-  "style" => "Art Nouveau"
+  "style" => "Art Nouveau",
+  "image" => "images/artists/cheret1.jpg"
   })
 artist3.save()
 
 artist4 = Artist.new({
   "name" => "Eugene Grasset",
-  "style" => "Art Nouveau"
+  "style" => "Art Nouveau",
+  "image" => "images/artists/grasset2.jpg"
   })
 artist4.save()
 
