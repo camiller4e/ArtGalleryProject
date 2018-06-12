@@ -47,7 +47,7 @@ ul {
   padding-left:0;
   text-align: center;
   color: black;
-  font-size: 30px;
+  font-size: 40px;
   font-family: cocotte;
 
 }
@@ -56,7 +56,7 @@ ul li {
 
   margin: 10px 15px 0;
   padding-left: 0px;
-  /* margin-right: 1150px; */
+
 
 }
 
@@ -160,10 +160,6 @@ margin-right: 100px;
 }
 
 .artworkshow figure {
-
-  /* width: 350px;
-  height:620px;
-  font-size: 28px; */
 
   font-size: 18px;
   display: flex;

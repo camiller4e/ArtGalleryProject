@@ -1,21 +1,19 @@
-<form method="post" action="/artists/<%= @artist.id %>/delete">
 
-  <div class="artistshow">
 
-    <figure>
-      <figcaption>
-        <img src=" <%= @artist.image() %>"><br><br>
-        <%= @artist.name() %><br>
-        <i><%= @artist.style() %></i><br><br>
+<div class="artistshow">
+
+  <figure>
+    <figcaption>
+      <img src=" <%= @artist.image() %>"><br><br>
+      <%= @artist.name() %><br>
+      <i><%= @artist.style() %></i><br><br>
+      <form method="post" action="/artists/<%= @artist.id %>/delete">
         <input type="submit" value="Delete artist"/>
-      </figcaption>
-      <%= @artist.bio() %>
-    </figure>
+      </form>
+    </figcaption>
+    <%= @artist.bio() %>
+  </figure>
 
 
 
-  </div>
-
-
-
-</form>
+</div>
