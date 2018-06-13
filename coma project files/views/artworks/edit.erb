@@ -1,20 +1,20 @@
-<h2>Edit <%= @artwork.update %></h2>
+<h2>Edit</h2>
 <form method="POST" action="/artworks/<%= @artwork.id %>">
   <div class="form-wrapper">
 
 
     <label for="title">Title:</label>
-    <input type="text" name="title" id="title"/>
+    <input type="text" name="title" id="title" value="<%= @artwork.title %>"/>
 
 
 
     <label for="category">Category:</label>
-    <input type="text" name="category" id="category"/>
+    <input type="text" name="category" id="category" value="<%= @artwork.category %>"/>
 
 
 
     <label for="year">Year:</label>
-    <input type="number" name="year" id="year"/>
+    <input type="number" name="year" id="year" value="<%= @artwork.year %>"/>
 
 
 
