@@ -5,11 +5,11 @@
 <% for artwork in @artworks %>
 <figure>
   <figcaption>
-    <a href="/artworks/<%= artwork.id %>"><img src=" <%= artwork.image() %>"></a><br>
+    <a href="/artworks/<%= artwork.id %>"><img src=" <%= artwork.image() %>"><br>
     <%= artwork.title() %> <br>
     <i><%= artwork.artist.name() %></i> <br>
     <i><%= artwork.year() %></i> <br>
-    <i><%= artwork.category() %></i> <br>
+    <i><%= artwork.category() %></i></a> <br>
   </figcaption>
 </figure>
 <% end %>
