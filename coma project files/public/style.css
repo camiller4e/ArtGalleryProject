@@ -26,6 +26,13 @@ footer {
 
 }
 
+footer a {
+
+  text-decoration: none;
+  border: 0px;
+
+}
+
 nav {
 
   height: 400px;
