@@ -5,9 +5,9 @@
 <% for artist in @artists %>
 <figure>
   <figcaption>
-    <a href="/artists/<%= artist.id %>"> <img src=" <%= artist.image() %>" style="height: 250px;"></a>
+    <a href="/artists/<%= artist.id %>"> <img src=" <%= artist.image() %>" style="height: 250px;">
     <%= artist.name() %><br>
-    <i><%= artist.style() %></i><br>
+    <i><%= artist.style() %></i><br></a>
   </figcaption>
 </figure>
 <% end %>
