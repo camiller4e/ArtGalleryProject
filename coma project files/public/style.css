@@ -177,8 +177,6 @@ margin-right: 100px;
 
 }
 
-
-
 .img-home a {
 
   color: black;
@@ -193,8 +191,15 @@ margin-right: 100px;
 
 }
 
-.bio {
+.form-wrapper {
 
-  /* margin-left: 20px; */
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: max-content;
+  margin: 0 auto;
+  font-family: palatino;
+  font-size: 28px;
+
 
 }
