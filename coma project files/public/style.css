@@ -191,6 +191,20 @@ margin-right: 100px;
 
 }
 
+.artists a:hover {
+
+  opacity: 0.6;
+  transition: .5s ease;
+
+}
+
+.artworks a:hover {
+
+  opacity: 0.6;
+  transition: .5s ease;
+
+}
+
 .form-wrapper {
 
   display: flex;
